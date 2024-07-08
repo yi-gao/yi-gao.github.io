@@ -12,5 +12,14 @@ author_profile: true
 {% include base_path %}
 
 {% for post in site.publications reversed %}
-  {% include archive-single.html %}
+{% assign counter = counter | plus: 1 %}
+  <p>         
+    [{{ counter }}],   
+    {{ post.authors | join: ', ' }}, 
+    "{{ post.title }}",
+    {{ post.venue }},
+    {{ post.location }}, {{ post.date | default: "1900-01-01" | date: "%Y" }},
+    {% if post.paperurl%}
+      <p><a href=" {{ post.paperurl }} ">Download Paper</a></p>
+  </p>
 {% endfor %}
