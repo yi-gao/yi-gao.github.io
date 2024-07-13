@@ -1,52 +1,134 @@
 ---
 permalink: /
 title: "Dr. Yi Gao's Homepage"
+layout: archive
 author_profile: true
 redirect_from: 
   - /about/
   - /about.html
 ---
 
-Yi GAO (高艺) is currently a full Professor at College of Computer Science, Zhejiang University, China. He received his B.S. and Ph.D. degrees in Zhejiang University in 2009 and 2014, respectively. His research interests include IoT, wireless and mobile computing, and edge AI.
+<style>
+ul {
+  list-style-type: none; /* 移除项目符号 */
+  padding: 0; /* 移除列表的内边距 */
+  margin: 0; /* 移除列表的外边距 */
+}
 
-He is a member of the [EmNets research group](www.emnets.cn) and the [EagleLab](http://eagle.zju.edu.cn/) at Zhejiang University.
+li {
+  line-height: 1.3; /* 减小行间距，数值越小，间距越小 */
+  margin-bottom: 3px; /* 减少底部外边距，数值越小，间距越小 */
+}
+</style>
 
 
-A data-driven personal website
-======
-Like many other Jekyll-based GitHub Pages templates, Academic Pages makes you separate the website's content from its form. The content & metadata of your website are in structured markdown files, while various other files constitute the theme, specifying how to transform that content & metadata into HTML pages. You keep these various markdown (.md), YAML (.yml), HTML, and CSS files in a public GitHub repository. Each time you commit and push an update to the repository, the [GitHub pages](https://pages.github.com/) service creates static HTML pages based on these files, which are hosted on GitHub's servers free of charge.
+<br>
+*Professor* (教授)<br>
+*Ph.D. Advisor* (博导)<br>
+Department of Software Engineering (软件工程系)，系主任<br>
+College of Computer Science and Technology (计算机科学与技术学院)<br>
+Zhejiang University (浙江大学)<br>
+Mail: 310027, Zetong Building, Yuquan Campus, Zhejiang University, Hangzhou, China<br>
+Email: gaoyi AT zju.edu.cn<br>
 
-Many of the features of dynamic content management systems (like Wordpress) can be achieved in this fashion, using a fraction of the computational resources and with far less vulnerability to hacking and DDoSing. You can also modify the theme to your heart's content without touching the content of your site. If you get to a point where you've broken something in Jekyll/HTML/CSS beyond repair, your markdown files describing your talks, publications, etc. are safe. You can rollback the changes or even delete the repository and start over -- just be sure to save the markdown files! Finally, you can also write scripts that process the structured data on the site, such as [this one](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.ipynb) that analyzes metadata in pages about talks to display [a map of every location you've given a talk](https://academicpages.github.io/talkmap.html).
 
-Getting started
-======
-1. Register a GitHub account if you don't have one and confirm your e-mail (required!)
-1. Fork [this repository](https://github.com/academicpages/academicpages.github.io) by clicking the "fork" button in the top right. 
-1. Go to the repository's settings (rightmost item in the tabs that start with "Code", should be below "Unwatch"). Rename the repository "[your GitHub username].github.io", which will also be your website's URL.
-1. Set site-wide configuration and create content & metadata (see below -- also see [this set of diffs](http://archive.is/3TPas) showing what files were changed to set up [an example site](https://getorg-testacct.github.io) for a user with the username "getorg-testacct")
-1. Upload any files (like PDFs, .zip files, etc.) to the files/ directory. They will appear at https://[your GitHub username].github.io/files/example.pdf.  
-1. Check status by going to the repository settings, in the "GitHub pages" section
+Biography
+========
+Yi GAO (高艺) is currently a professor at the [College of Computer Science and Technology](http://www.cs.zju.edu.cn/), [Zhejiang University](https://www.zju.edu.cn/), China. He is a member of the [EmNets research group](https://www.emnets.cn) and the [EagleLab](http://eagle.zju.edu.cn/) at Zhejiang University. He previously served as a postdoctoral researcher at [McGill University](https://www.mcgill.ca/), Canada. He received his B.S. and Ph.D. degrees in Zhejiang University in 2009 and 2014, respectively. His research interests include IoT, wireless and mobile computing, and edge AI.
 
-Site-wide configuration
-------
-The main configuration file for the site is in the base directory in [_config.yml](https://github.com/academicpages/academicpages.github.io/blob/master/_config.yml), which defines the content in the sidebars and other site-wide features. You will need to replace the default variables with ones about yourself and your site's github repository. The configuration file for the top menu is in [_data/navigation.yml](https://github.com/academicpages/academicpages.github.io/blob/master/_data/navigation.yml). For example, if you don't have a portfolio or blog posts, you can remove those items from that navigation.yml file to remove them from the header. 
+Teaching
+========
+CS3258M Fundamentals and Application Development for Internet of Things (物联网技术基础与应用开发), 2024Fall<br>
+CS3136M Computer Networks (计算机网络), 2024Fall, 2023Fall, 2022Fall, 2021Fall, 2020Fall, 2019Fall<br>
+Fundamentals and Applications of the Internet of Things (物联网基础与应用), 2018Fall<br>
+Advanced Internet of Things Applications (高级物联网应用), 2017Fall<br>
 
-Create content & metadata
-------
-For site content, there is one markdown file for each type of content, which are stored in directories like _publications, _talks, _posts, _teaching, or _pages. For example, each talk is a markdown file in the [_talks directory](https://github.com/academicpages/academicpages.github.io/tree/master/_talks). At the top of each markdown file is structured data in YAML about the talk, which the theme will parse to do lots of cool stuff. The same structured data about a talk is used to generate the list of talks on the [Talks page](https://academicpages.github.io/talks), each [individual page](https://academicpages.github.io/talks/2012-03-01-talk-1) for specific talks, the talks section for the [CV page](https://academicpages.github.io/cv), and the [map of places you've given a talk](https://academicpages.github.io/talkmap.html) (if you run this [python file](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.py) or [Jupyter notebook](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.ipynb), which creates the HTML for the map based on the contents of the _talks directory).
 
-**Markdown generator**
+Selected Publications <span style="font-size: 0.9em; font-weight: normal;">([full list](/publications/))</span>
+========
+<h3><em>Textbook</em></h3>
+董玮, <u>高艺</u>, 韩劲松. "从创意到原型：物联网应用快速开发(第二版)", 科学出版社, 2022, ISBN 978-7-03-072966-8. (工信部“十四五”规划教材，浙江省普通高校“十三五”新形态教材，物联网工程专业系列教材)<br>
 
-I have also created [a set of Jupyter notebooks](https://github.com/academicpages/academicpages.github.io/tree/master/markdown_generator
-) that converts a CSV containing structured data about talks or presentations into individual markdown files that will be properly formatted for the Academic Pages template. The sample CSVs in that directory are the ones I used to create my own personal website at stuartgeiger.com. My usual workflow is that I keep a spreadsheet of my publications and talks, then run the code in these notebooks to generate the markdown files, then commit and push them to the GitHub repository.
+{% assign selected_venue_keywords = "NSDI,INFOCOM,IPSN,MOBICOM,TMC,TC,TOSN,ToN,TPDS,ICDCS,ATC,ICNP,MOBISYS,SENSYS,UBICOMP,WWW,PERCOM,SIGMETRICS,RTSS" | split: "," %}
+<!-- 显示 Conference Papers -->
+<h3><em>Conference Papers</em></h3>
+<ul>
+{% assign conference_papers = site.publications | where: 'publication_type', 'conference' | sort: 'date' | reverse %}
+{% for paper in conference_papers %}
+  {% assign venue_downcased = paper.venue | remove: '(' | remove: ')' | remove: ' ' | downcase %} 
+  {%- if venue_downcased contains 'poster' or venue_downcased contains 'demo' or venue_downcased contains 'workshop' -%}
+    {%- continue -%}
+  {%- endif -%} 
+  {% for keyword in selected_venue_keywords %}
+    {% assign keyword_downcased = keyword | downcase %}
+    {% if venue_downcased contains keyword_downcased %}
+      <li>
+        [<span style="color:red;">{{keyword}}</span>]
+        {% for author in paper.authors %}
+          {% if author == "Yi Gao" and paper.corresponding_authors contains author %}
+            <u>{{ author }}</u>*{% unless forloop.last %}, {% endunless %}{%if forloop.last %}.{% endif %}
+          {% elsif author == "Yi Gao"%}
+            <u>{{ author }}</u>{% unless forloop.last %}, {% endunless %}{%if forloop.last %}.{% endif %}
+          {% elsif  paper.corresponding_authors contains author%}
+            {{ author }}*{% unless forloop.last %}, {% endunless %}{%if forloop.last %}.{% endif %}
+          {% else %}
+            {{ author }}{% unless forloop.last %}, {% endunless %}{%if forloop.last %}.{% endif %}
+          {% endif %}          
+        {% endfor %}
+        <em>"{{ paper.title }}"</em>,
+        <strong>{{ paper.venue }}</strong>,
+        {% if paper.location %}
+          {{ paper.location }}, 
+        {% endif %}
+        {{ paper.date | default: "1901-01-01" | date: "%Y" }}.
+        {% if paper.paperurl %}
+          <a href=" {{ paper.paperurl }} ">Download Paper</a>
+        {% endif %}  
+      </li>
+      {% break %}
+    {% endif %}
+  {% endfor %}
+{% endfor %}
+</ul>
 
-How to edit your site's GitHub repository
-------
-Many people use a git client to create files on their local computer and then push them to GitHub's servers. If you are not familiar with git, you can directly edit these configuration and markdown files directly in the github.com interface. Navigate to a file (like [this one](https://github.com/academicpages/academicpages.github.io/blob/master/_talks/2012-03-01-talk-1.md) and click the pencil icon in the top right of the content preview (to the right of the "Raw | Blame | History" buttons). You can delete a file by clicking the trashcan icon to the right of the pencil icon. You can also create new files or upload files by navigating to a directory and clicking the "Create new file" or "Upload files" buttons. 
+<!-- 显示 Journal Articles -->
+<h3><em>Journal Articles</em></h3>
+<ul>
+{% assign journal_articles = site.publications | where: 'publication_type', 'journal' | sort: 'date' | reverse %}
+{% for article in journal_articles %}
+  {% assign venue_downcased = article.venue | remove: '(' | remove: ')' | remove: ' ' | downcase %}
+  {% for keyword in selected_venue_keywords %}
+    {% assign keyword_downcased = keyword | downcase %}
+    {% if venue_downcased contains keyword_downcased %}
+      <li>
+        [<span style="color:red;">{{keyword}}</span>]
+        {% for author in article.authors %}
+          {% if author == "Yi Gao" and article.corresponding_authors contains author %}
+            <u>{{ author }}</u>*{% unless forloop.last %}, {% endunless %}{%if forloop.last %}.{% endif %}
+          {% elsif author == "Yi Gao"%}
+            <u>{{ author }}</u>{% unless forloop.last %}, {% endunless %}{%if forloop.last %}.{% endif %}
+          {% elsif  article.corresponding_authors contains author%}
+            {{ author }}*{% unless forloop.last %}, {% endunless %}{%if forloop.last %}.{% endif %}
+          {% else %}
+            {{ author }}{% unless forloop.last %}, {% endunless %}{%if forloop.last %}.{% endif %}
+          {% endif %}          
+        {% endfor %}
+        <em>"{{ article.title }}"</em>,
+        <strong>{{ article.venue }}</strong>,
+        {% if article.vol_no_pp and article.vol_no_pp != "nan" %}
+          {{ article.vol_no_pp }},
+        {% endif %} 
+        {% if article.location %}
+          {{ article.location }}, 
+        {% endif %}
+        {{ article.date | default: "1901-01-01" | date: "%Y" }}.
+        {% if article.paperurl %}
+          <a href=" {{ article.paperurl }} ">Download Paper</a>
+        {% endif %}   
+      </li>
+      {% break %}
+    {% endif %}
+  {% endfor %}
+{% endfor %}
+</ul>
 
-Example: editing a markdown file for a talk
-![Editing a markdown file for a talk](/images/editing-talk.png)
-
-For more info
-------
-More info about configuring Academic Pages can be found in [the guide](https://academicpages.github.io/markdown/). The [guides for the Minimal Mistakes theme](https://mmistakes.github.io/minimal-mistakes/docs/configuration/) (which this theme was forked from) might also be helpful.

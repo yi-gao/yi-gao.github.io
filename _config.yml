@@ -24,7 +24,7 @@ author:
   avatar           : "profile.jpg"
   name             : "Dr. Yi Gao (高艺)"
   pronouns         : # example: "she/her"  
-  bio              : "Professor of Zhejiang University, China"
+  bio              : "Professor"
   location         : "Hangzhou, China"
   employer         : "Zhejiang University"
   uri              : # URL
@@ -327,6 +327,7 @@ tag_archive:
 #   permalinks:
 #     category: /categories/:name/
 #     tag: /tags/:name/
+
 
 
 # HTML Compression
