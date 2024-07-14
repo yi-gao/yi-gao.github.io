@@ -13,7 +13,7 @@ ul {
 }
 
 li {
-  line-height: 1.3; /* 减小行间距，数值越小，间距越小 */
+  line-height: 1.3; /* 减小行间距，数值越小，间距越小 */  
   margin-bottom: 3px; /* 减少底部外边距，数值越小，间距越小 */
 }
 </style>
