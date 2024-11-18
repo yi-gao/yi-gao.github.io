@@ -3,7 +3,7 @@ title: "Combating BLE Weak Links with Adaptive Symbol Extension and DNN-based De
 collection: publications
 to_appear: False
 publication_type: 'conference'
-venue: 'Embedded Networked Sensor Systems (SenSys)
+venue: 'Embedded Networked Sensor Systems (SenSys)'
 venue_short: ' '
 vol_no_pp: '2024: 619-632'
 date: 2024-11-04
